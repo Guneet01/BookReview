@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+<link rel="stylesheet" type="text/css" href="externalstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body bgcolor="#333">
+
+<!--Navigation-->
+<ul class="nav_bar">
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="#band" >Browse</a></li>
+  <li><a href="Blog.html" target="_self" >Blog</a></li>
+  <li><a href="#contact" >Contact</a></li>
+  <li class=nav_button><img src="final.png" height="25px" width="30px"></li>
+  <li class="nav_button"><input type="button" id="signup" value="Sign Up"></li>
+  <li class="nav_button"><input type="button" id="logibtn" value="Login"></li>
+  
+</ul>
+
+<!-- Slide Show -->
+
+<section>
+  <img class="mySlides" src="cover_pic.jpg"
+  style="width:100%">
+  <img class="mySlides" src="cropped-bookcoffee.jpg"
+  style="width:100%">
+  <img class="mySlides" src="third.jpg"
+  style="width:100%">
+ 
+</section>
+<footer class="foot">
+	<div class="foot-left" width= "700px">
+		<img src="Location.png" height="40px" width="40px">
+				
+		<p>242 Cafe Zone Mathurdas Compound<br>
+			Lower Parel, Mumbai- 400013<br>
+			Phone- 022 4616060</p>
+	</div>
+	<div class ="foot-center" width="700px">
+		<img src="final.png" height="60px" width="50px"><h3 style="color:white;font-size:24;"><bold>STACKED</bold></h3>
+		<p> Find yourself something new to read.</p>
+		
+	</div>
+	<div class="foot-right">
+		<br>
+		<h6 class="icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+					</h6>
+	</div>
+</footer>
+ 
+ <script>
+ 
+var modal = document.getElementById('logibtn');
+var index=0;
+slideshow();
+function slideshow(){
+var i;
+var x=document.getElementsByClassName("mySlides");
+for(i=0;i<x.length;i++){
+x[i].style.display="none";
+}
+
+index++;
+if(index>x.length){index=1}
+x[index-1].style.display="block";
+setTimeout(slideshow,3000);
+}
+</script>
+
+
+</body>
+</html>

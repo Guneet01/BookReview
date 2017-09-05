@@ -1,0 +1,86 @@
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+
+overflow:hidden;
+background-color:#333;
+}
+body
+{
+margin:0px;	
+}
+li{
+float:left;
+}
+li a {
+display:block;
+color:white;
+text-align:center;
+padding: 14px 16px;
+text-decoration:none;
+
+}
+
+li a:hover
+{
+background-color:#111
+}
+@font-face{font-family:Fortunates December; src:url('Fortunates December.ttf'); font-align:center;}
+
+.nav_button{
+	background-color:"#333";
+	font-color:"white";
+	padding:14px 16px;
+	text-decoration:none;
+	float:right;
+	
+}
+.foot-left
+{
+	padding:0;
+	margin:0;
+	display:block;
+	float:left;
+}
+
+.foot-left p
+{
+color:white;
+font-size:"24";	
+}
+
+.foot-center
+{
+	float:center;
+	left:40%;
+}
+
+.foot-center p
+{
+color:white;
+font-size:"24";	
+}
+
+.foot-right
+{
+	float:right;
+}
+.myslides
+{
+margin:0;
+padding:0;	
+}
+.heading
+{	margin:0;
+	padding:0;
+	
+	font-align:center;
+	font-family:Fortunates December;
+	font-align:center;
+}
+.center
+{	position:relative;
+	text-align:center;
+	left:50%;
+}
